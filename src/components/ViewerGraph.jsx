@@ -148,6 +148,7 @@ export const ViewerGraph = () => {
           }else{
           data.edges.push({ from: node.ide, to: arista.nodeId })
         }
+        ///////////////////////////77
           setData({ ...data });
         })
       })
